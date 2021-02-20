@@ -20,7 +20,7 @@ const App = () => {
   }])
 
   useEffect(() => {
-    // getUserData();
+    getUserData();
   }, []);
 
   const getUserData = async () => {
